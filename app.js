@@ -200,10 +200,7 @@ var users = [
 ];
 
 users.forEach(function(user) {
-  console.log(
-    user.name + ' will be ' + (user.age + 1) + ' in ' +
-    user.birthMonth
-  );
+  console.log(user.name + ' will be ' + (user.age + 1) + ' in ' + user.birthMonth );
 });
 
 // Console output:
